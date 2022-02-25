@@ -50,10 +50,7 @@ data.forEach(c => {
 <div id="image18" class="style2 image"><span class="frame"><img
             src="assets/images/image18.svg?v=2b99aba4" alt=""></span></div>
 <h3 id="text60" class="style5">${s.name}</h3>
-<p id="text84" class="style2">
 
-
-</p>
 <ul id="links02" class="style1 links">
     <li class="n01"><a target="_blank" href="${s.link}">Go To</a></li>
 </ul>
