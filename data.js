@@ -1,6 +1,17 @@
 const el = document.querySelector("#placement")
 const data = [
     {
+        country: "General",
+
+        sites: [
+            {
+                name: "Aljazeera",
+                link: "https://www.aljazeera.com/live/"
+            }
+     
+        ]
+    },
+    {
         country: "US",
 
         sites: [
@@ -39,7 +50,7 @@ data.forEach(c => {
       
     });
 
-    console.log(cell)
+
 
 
     html += `
