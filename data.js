@@ -12,6 +12,18 @@ const data = [
         ]
     },
     {
+        country: "UK",
+
+        sites: [
+            {
+                name: "BBC UK",
+                link: "https://www.bbc.com/news/live/world-europe-60517447",
+                mustRegister:true
+            }
+     
+        ]
+    },
+    {
         country: "US",
 
         sites: [
