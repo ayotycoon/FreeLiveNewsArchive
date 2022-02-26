@@ -926,7 +926,7 @@ p.style1 {
     color: #836EE6;
     font-family: 'Sora', sans-serif;
     letter-spacing: 0.25rem;
-    width: calc(100% + 0.25rem);
+    width: 100% !important;
     font-size: 0.75em;
     line-height: 1.5;
     font-weight: 400;
@@ -2006,13 +2006,7 @@ p.style3 mark {
     width: calc(33.33333% + 2.5rem);
 }
 
-#container16:not(:first-child) {
-    margin-top: 6.5rem !important;
-}
 
-#container16:not(:last-child) {
-    margin-bottom: 5.875rem !important;
-}
 
 #container16>.wrapper>.inner {
     text-align: left;
@@ -3707,7 +3701,7 @@ hr.style1:not(:last-child) {
 }
 
 hr.style1:before {
-    width: 2rem;
+    width: 100%;
     border-top: solid 5px #8672E9;
     height: 5px;
     margin-top: -2.5px;
@@ -9033,4 +9027,12 @@ form .actions button:disabled {
         height: 1.875rem;
         min-width: 0.84375rem;
     }
+}
+#text60,#links02,#text85{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.inner-custom{
+    margin: 0px 0px 0px -80px;
+    padding-left: 5rem !important;
 }
