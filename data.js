@@ -7,6 +7,10 @@ const data = [
             {
                 name: "Aljazeera",
                 link: "https://www.aljazeera.com/live/"
+            },
+            {
+                name: "NBC News",
+                link: "https://www.youtube.com/c/NBCNews"
             }
      
         ]
@@ -16,8 +20,13 @@ const data = [
 
         sites: [
             {
-                name: "BBC UK",
+                name: "BBC",
                 link: "https://www.bbc.com/news/live/world-europe-60517447",
+                mustRegister:true
+            },
+            {
+                name: "Sky News",
+                link: "https://www.youtube.com/c/SkyNews",
                 mustRegister:true
             }
      
@@ -34,6 +43,14 @@ const data = [
             {
                 name: "CNN 2",
                 link: "https://www.livenewsworld.com/watchcnnlivestream/"
+            },
+            {
+                name: "FOX",
+                link: "https://www.youtube.com/c/livenowfox"
+            },
+            {
+                name: "ABC News",
+                link: "https://www.youtube.com/c/ABCNews"
             },
      
         ]
